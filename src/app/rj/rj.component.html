@@ -1,0 +1,30 @@
+<h1>hey i am from rj component</h1>
+<!-- this is string interpolation concept -->
+<h1>{{myname}}</h1>
+
+<ul *ngFor="let i of array">
+    <li>{{i}}</li>
+</ul>
+
+<button onclick="change()">Press</button>
+<h1 [style]="color1">Change my color</h1>
+
+
+<table>
+    <thead><u>This is my table</u></thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Domain</th>
+        <th>Salary</th>
+
+            <tr *ngFor="let j of array2">
+                <td>{{j.id}}</td>
+                <td>{{j.name}}</td>
+                <td>{{j.domain}}</td>
+                <td>{{j.salary}}</td>
+            </tr>
+        
+    
+</table>
+
+
