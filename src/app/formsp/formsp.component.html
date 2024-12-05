@@ -1,0 +1,30 @@
+
+----------------<b>Template-Driven Form</b>--------------
+<form #temp="ngForm" (ngSubmit)="register(temp)">
+    <fieldset>
+        <legend>Login Form</legend>
+        <div class="mb-3">
+        <label for="sname">Enter Name :</label>
+        <input type="text" placeholder="Enter your name" name="sname" class="form-control" ngModel ><br>
+
+        <label for="sname">Enter Email :</label>
+        <input type="email" placeholder="Enter your email" name="semail" class="form-control" ngModel ><br>
+
+        <label for="sname">Enter Password :</label>
+        <input type="password" placeholder="Enter your password" name="spass" class="form-control"  ngModel ><br>
+
+        <label for="sname">Enter Address :</label>
+        <input type="text" placeholder="Enter your address" name="sadd" class="form-control" ngModel  ><br>
+
+        </div>
+        
+
+        <button type="submit">login</button>
+        
+    </fieldset>
+</form>
+
+
+
+-----------------Reactive Form-----------------
+
