@@ -1,0 +1,15 @@
+table,th,tr,td{
+    border: 1px solid;
+    border-color:greenyellow;
+    border-collapse: collapse;
+    font: 100;
+    align-content: center;
+}
+
+input{
+    border-radius: 25px;
+    border-style: double;
+ 
+
+}
+

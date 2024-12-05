@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
+<<<<<<< HEAD
 import { FakeApiService } from './fake-api.service';
 import { NextService } from './next.service';
+=======
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c
 
 @Component({
   selector: 'app-root',
@@ -8,6 +11,7 @@ import { NextService } from './next.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+<<<<<<< HEAD
   title = 'RoutingProject';
 
   M=''
@@ -40,4 +44,8 @@ export class AppComponent {
       this.mydata=x
     })
   }
+=======
+  title = 'FirstProject';
+
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c
 }

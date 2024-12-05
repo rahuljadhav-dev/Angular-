@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 # RoutingProject
+=======
+<<<<<<< HEAD
+# Angular
+=======
+# FirstProject
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
@@ -25,3 +32,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<<<<<<< HEAD
+=======
+>>>>>>> 2b8dea9 (My first angular project)
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c

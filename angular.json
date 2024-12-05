@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "RoutingProject": {
+=======
+    "FirstProject": {
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/routing-project",
+=======
+            "outputPath": "dist/first-project",
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -25,9 +33,13 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
 
+=======
+              "src/styles.css"
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c
             ],
             "scripts": []
           },
@@ -62,10 +74,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "RoutingProject:build:production"
             },
             "development": {
               "browserTarget": "RoutingProject:build:development"
+=======
+              "browserTarget": "FirstProject:build:production"
+            },
+            "development": {
+              "browserTarget": "FirstProject:build:development"
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +92,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "RoutingProject:build"
+=======
+            "browserTarget": "FirstProject:build"
+>>>>>>> 8c6b4307b80efb8a147521129d8e529143b9597c
           }
         },
         "test": {
